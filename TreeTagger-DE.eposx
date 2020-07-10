@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<eposx title="Tree-DE" wordSeparator="_" ambiguitySeparator="`">  <!-- Codes cannot contain any of these special characters -->
+  <userTags>
+
+    <tag code="L" name="Left" />
+    <tag code="R" name="Right" />
+    <tag code="SUBSTIT" name="Substitutive" />
+    <tag code="IRREFLEX" name="Irreflexive" />
+    <tag code="ZU" name="Zu" />
+    <tag code="ANSWER" name="Answering" />
+    <tag code="TRUNC" name="Truncated" />
+    <tag code="FIN" name="Finite" />
+	<tag code="wdet" name="With Determiner" />
+	<tag code="woutdet" name="Without Determiner" />
+
+
+  </userTags> 
+  <markups>
+    <markup text="ADJA" code="ADJ.ATTR" />
+    <markup text="ADJD" code="ADJ.PRED" />
+    <markup text="ADV" code="ADV" />
+    <markup text="APPR" code="CIRC.L" />
+    <markup text="APZR" code="CIRC.R" />
+    <markup text="APPRART" code="PREP.ART" />
+    <markup text="APPO" code="POSTP" />
+    <markup text="ART" code="ART" />
+    <markup text="CARD" code="NUM.CARD" />
+    <markup text="FM" code="OTH.FOREIGN" />
+    <markup text="ITJ" code="INTERJ" />
+    <markup text="KOUI" code="CONJ.SUBORD.INF" />
+    <markup text="KOUS" code="CONJ.SUBORD" />
+    <markup text="KON" code="CONJ.COORD" />
+    <markup text="KOKOM" code="CONJ.COMP" />
+    <markup text="NN" code="N.COMM" />
+    <markup text="NE" code="N.PROP" />
+    <markup text="PDS" code="PRON.DEM.SUBSTIT" />
+    <markup text="PDAT" code="PRON.DEM.ATTR" />
+    <markup text="PIS" code="PRON.INDEF.SUBSTIT" />
+    <markup text="PIAT" code="PRON.INDEF.ATTR.woutdet" />
+    <markup text="PIDAT" code="PRON.INDEF.ATTR.wdet" />
+    <markup text="PPER" code="PRON.PERS.IRREFLEX" />
+    <markup text="PPOSS" code="PRON.POSS.SUBSTIT" />
+    <markup text="PPOSAT" code="PRON.POSS.ATTR" />
+    <markup text="PRELS" code="PRON.REL.SUBSTIT" />
+    <markup text="PRELAT" code="PRON.REL.ATTR" />
+    <markup text="PRF" code="PRON.PERS.REFL" />
+    <markup text="PWS" code="PRON.INTERROG.SUBSTIT" />
+    <markup text="PWAT" code="PRON.INTERROG.ATTR" />
+    <markup text="PWAV" code="PRON.REL.ADV" />
+    <markup text="PAV" code="ADV.PRON" />
+    <markup text="PTKZU" code="PTCL.ZU" />
+    <markup text="PTKNEG" code="PTCL.NEG" />
+    <markup text="PTKVZ" code="PTCL.V" />
+    <markup text="PTKANT" code="PTCL.ANSWER" />
+    <markup text="PTKA" code="PTCL.ADJ" />
+    <markup text="TRUNC" code="OTH.TRUNC" />
+    <markup text="VVFIN" code="V.LEX.FIN" />
+    <markup text="VVIMP" code="V.LEX.IMP" />
+    <markup text="VVINF" code="V.LEX.INF" />
+    <markup text="VVIZU" code="V.LEX.INF.ZU" />
+    <markup text="VVPP" code="V.LEX.PAST.PTCP" />
+    <markup text="VAFIN" code="V.AUX.FIN" />
+    <markup text="VAIMP" code="V.AUX.IMP" />
+    <markup text="VAINF" code="V.AUX.INF" />
+    <markup text="VAPP" code="V.AUX.PAST.PTCP" />
+    <markup text="VMFIN" code="V.MOD.FIN" />
+    <markup text="VMINF" code="V.MOD.INF" />
+    <markup text="VMPP" code="V.MOD.PAST.PTCP" />
+    <markup text="XY" code="ALPH" />
+  </markups>
+</eposx>
