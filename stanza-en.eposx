@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<eposx title="Stanza-EN" wordSeparator="_" ambiguitySeparator="`">  <!-- Codes cannot contain any of these special characters -->
+
+	<userTags>
+		<tag code="wh" name="Wh-words" />
+		<tag code="to" name="Infinitive to" />
+		<tag code="be" name="Be" />
+		<tag code="have" name="Have" />
+		<tag code="base" name="Base form" />
+		<tag code="non3" name="Non-3rd Person" />
+		<tag code="pre" name="Pre" />
+		<tag code="list" name="List" />
+
+	</userTags>
+
+  <markups>
+	<markup text="CC" code="conj.coord" /> <!-- and -->
+	<markup text="CD" code="num.card" /> <!-- 1, 2, 3 -->
+	<markup text="DT" code="det" /> <!-- the -->
+
+	<markup text="IN" code="prep" /> <!-- in, of -->
+	<markup text="JJ" code="adj" /> <!-- happy -->
+	<markup text="JJR" code="adj.comp" /> <!-- happier-->
+	<markup text="JJS" code="adj.superl" /> <!-- happiest -->
+	<markup text="MD" code="v.mod" /> <!-- could, will -->
+	<markup text="NN" code="n.comm.sing" /> <!-- table -->
+	<markup text="NNS" code="n.comm.pl" /> <!-- tables -->
+	<markup text="NNP" code="n.prop.sing" /> <!-- John -->
+	<markup text="NNPS" code="n.prop.pl" /> <!-- Vikings -->
+	<markup text="POS" code="ptcl.poss" /> <!-- Vikings -->
+	<markup text="PRP" code="pron.pers" /> <!-- I, he, it -->
+	<markup text="PRPS" code="pron.poss" /> <!-- my, his -->
+	<markup text="RB" code="adv" /> <!-- however, usually -->
+	<markup text="RBR" code="adv.comp" /> <!-- better -->
+	<markup text="RBS" code="adv.superl" /> <!-- best -->
+	<markup text="RP" code="ptcl.v" /> <!-- up (verb particle) -->
+	<markup text="TO" code="ptcl.to" /> <!-- to (know) -->
+	<markup text="UH" code="interj" /> <!-- uh, ok -->
+
+	<markup text="VB" code="v.be.base" /> <!-- be -->
+	<markup text="VBP" code="v.be.pres.non3" /> <!-- am, are -->
+	<markup text="VBZ" code="v.be.pres.3.sing" /> <!-- is -->
+	<markup text="VBG" code="v.be.pres.ptcp" /> <!-- been -->
+	<markup text="VBD" code="v.be.past" /> <!-- was, were -->
+	<markup text="VBN" code="v.be.past.ptcp" /> <!-- been -->
+
+	<markup text="VH" code="v.have.base" /> <!-- have -->
+	<markup text="VHP" code="v.have.pres.non3" /> <!-- have -->
+	<markup text="VHZ" code="v.have.pres.3.sing" /> <!-- has -->
+	<markup text="VHG" code="v.have.pres.ptcp" /> <!-- had -->
+	<markup text="VHD" code="v.have.past" /> <!-- had -->
+	<markup text="VHN" code="v.have.past.ptcp" /> <!-- had -->
+
+	<markup text="VV" code="v.lex.base" /> <!-- take -->
+	<markup text="VVP" code="v.lex.pres.non3" /> <!-- take -->
+	<markup text="VVZ" code="v.lex.pres.3.sing" /> <!-- takes -->
+	<markup text="VVG" code="v.lex.pres.ptcp" /> <!-- taking -->
+	<markup text="VVD" code="v.lex.past" /> <!-- took -->
+	<markup text="VVN" code="v.lex.past.ptcp" /> <!-- taken -->
+
+	<markup text="WDT" code="det.wh" /> <!-- which -->
+	<markup text="PDT" code="det.pre" /> <!-- all -->
+	<markup text="WP" code="pron.wh" /> <!-- who, what -->
+	<markup text="WPS" code="pron.wh.poss" /> <!-- whose -->
+	<markup text="WRB" code="adv.wh" /> <!-- where, when -->
+
+
+	<markup text="EX" code="oth.exist" /> <!-- there (is/are) -->
+	<markup text="FW" code="oth.foreign" /> <!-- there (is/are) -->
+	<markup text="LS" code="oth.mark.list" /> <!-- 1), 2) -->
+
+
+	<markup text="AFX" code="oth.n" />
+	<markup text="ADD" code="oth.adj" /> 
+	<markup text="GW" code="oth.adv" /> 
+	<markup text="NFP" code="oth.adj.comp" />
+
+
+  </markups>
+</eposx>
