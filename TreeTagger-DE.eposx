@@ -10,8 +10,8 @@
     <tag code="ANSWER" name="Answering" />
     <tag code="TRUNC" name="Truncated" />
     <tag code="FIN" name="Finite" />
-	<tag code="wdet" name="With Determiner" />
-	<tag code="woutdet" name="Without Determiner" />
+    <tag code="wdet" name="With Determiner" />
+    <tag code="woutdet" name="Without Determiner" />
 
 
   </userTags> 
