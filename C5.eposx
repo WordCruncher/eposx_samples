@@ -1,100 +1,101 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<eposx title="C5" wordSeparator="_" ambiguitySeparator="-">  <!-- Codes cannot contain any of these special characters -->
+<eposx title="C5" wordSeparator="_" ambiguitySeparator="?">  <!-- Codes cannot contain any of these special characters -->
   <userTags>
-	<tag code="ge"   name="General" />
-	<tag code="base"  name="Base" />
-    	<tag code="wh"    name="Wh-words" />
-    	<tag code="that"  name="That" />
-    	<tag code="of"    name="Of" />
+    <tag code="wh"    name="Wh-words" />
+    <tag code="that"  name="That" />
+    <tag code="of"    name="Of" />
 
-    	<tag code="lbr"   name="Left bracket" />
-    	<tag code="qu"    name="Quote" />
-    	<tag code="rbr"   name="Right bracket" />
+    <tag code="lbr"   name="Left bracket" />
+    <tag code="qu"    name="Quote" />
+    <tag code="rbr"   name="Right bracket" />
     
-    	<tag code="be"    name="Be verbs" />
-    	<tag code="do"    name="Do verbs" />
-    	<tag code="have"  name="Have verbs" />
-    	<tag code="to"    name="To verbs" />
+    <tag code="be"    name="Be verbs" />
+    <tag code="do"    name="Do verbs" />
+    <tag code="have"  name="Have verbs" />
+    <tag code="to"    name="To verbs" />
 
-    	<tag code="sent"  name="Sentence" />
+    <tag code="sent"  name="Sentence" />
   </userTags> 
   <markups>
-    	<markup text="AJ0"  code="adj.ge" />
-    	<markup text="AJC"  code="adj.comp" />
-    	<markup text="AJS"  code="adj.superl" />
+    <markup text="AJ0"  code="adj" />
+    <markup text="AJC"  code="adj.comp" />
+    <markup text="AJS"  code="adj.superl" />
     
-    	<markup text="AT0"  code="art" />
+    <markup text="AT0"  code="art" />
 
-    	<markup text="AV0"  code="adv.ge" />
-    	<markup text="AVP"  code="adv.ptcl" />
-    	<markup text="AVQ"  code="adv.wh" />
+    <markup text="AV0"  code="adv" />
+    <markup text="AVP"  code="adv.ptcl" />
+    <markup text="AVQ"  code="adv.wh" />
     
-    	<markup text="CJC"  code="conj.coord" />
-    	<markup text="CJS"  code="conj.subord" />
-    	<markup text="CJT"  code="conj.that" />
+    <markup text="CJC"  code="conj.coord" />
+    <markup text="CJS"  code="conj.subord" />
+    <markup text="CJT"  code="conj.that" />
     
-    	<markup text="CRD"  code="num.card" />
-    	<markup text="ORD"  code="num.ord" />
+    <markup text="CRD"  code="num.card" />
+    <markup text="ORD"  code="num.ord" />
     
-    	<markup text="DT0"  code="det.ge" />
-    	<markup text="DPS"  code="det.poss" />
-    	<markup text="DTQ"  code="det.wh" />
+    <markup text="DT0"  code="det" />
+    <markup text="DPS"  code="det.poss" />
+    <markup text="DTQ"  code="det.wh" />
 
-    	<markup text="EX0"  code="exist" />
+    <markup text="EX0"  code="exist" />
     
-    	<markup text="ITJ"  code="interj" />
+    <markup text="ITJ"  code="interj" />
 	
-    	<markup text="NN0"  code="n.comm.ge" />
-    	<markup text="NN1"  code="n.comm.sing" /> 
-    	<markup text="NN2"  code="n.comm.pl" />
-    	<markup text="NP0"  code="n.prop" />
+    <markup text="NN0"  code="n.comm" />
+    <markup text="NN1"  code="n.comm.sing" /> 
+    <markup text="NN2"  code="n.comm.pl" />
+    <markup text="NP0"  code="n.prop" />
 	
-    	<markup text="NULL" code="null" />
+    <markup text="NULL" code="null" />
 	
-    	<markup text="PNI"  code="pron.indef" />
-    	<markup text="PNP"  code="pron.pers" />
-    	<markup text="PNQ"  code="pron.wh" />
-    	<markup text="PNX"  code="pron.refl" />
+    <markup text="PNI"  code="pron.indef" />
+    <markup text="PNP"  code="pron.pers" />
+    <markup text="PNQ"  code="pron.wh" />
+    <markup text="PNX"  code="pron.refl" />
 	
-    	<markup text="POS"  code="ptcl.poss" />
+    <markup text="POS"  code="ptcl.poss" />
 	
-    	<markup text="PRP"  code="prep.ge" />
-    	<markup text="PRF"  code="prep.of" />
+    <markup text="PRP"  code="prep" />
+    <markup text="PRF"  code="prep.of" />
 	
-	<markup text="VBB"  code="v.lex.be.base" />
-	<markup text="VBI"  code="v.lex.be.inf" />
-	<markup text="VBZ"  code="v.lex.be.pres.ge" />
-	<markup text="VBG"  code="v.lex.be.pres.ptcp" />
-	<markup text="VBD"  code="v.lex.be.past.ge" />
-	<markup text="VBN"  code="v.lex.be.past.ptcp" />
+    <markup text="VBB"  code="v.be" />
+    <markup text="VDB"  code="v.do" />
+    <markup text="VHB"  code="v.have" />
 	
-    	<markup text="VDB"  code="v.lex.do.base" />
-	<markup text="VDI"  code="v.lex.do.inf" />
-	<markup text="VDZ"  code="v.lex.do.pres.ge" />
-	<markup text="VDG"  code="v.lex.do.pres.ptcp" />
-	<markup text="VDD"  code="v.lex.do.past.ge" />
-	<markup text="VDN"  code="v.lex.do.past.ptcp" />
+    <markup text="VBI"  code="v.inf.be" />
+    <markup text="VDI"  code="v.inf.do" />
+    <markup text="VHI"  code="v.inf.have" />
 	
-    	<markup text="VHB"  code="v.lex.have.base" />
-    	<markup text="VHI"  code="v.lex.have.inf" />
-	<markup text="VHZ"  code="v.lex.have.pres.ge" />
-	<markup text="VHG"  code="v.lex.have.pres.ptcp" />
-    	<markup text="VHD"  code="v.lex.have.past.ge" />
-    	<markup text="VHN"  code="v.lex.have.past.ptcp" />
+    <markup text="VBD"  code="v.past.be" />
+    <markup text="VDD"  code="v.past.do" />
+    <markup text="VHD"  code="v.past.have" />
+	
+    <markup text="VBZ"  code="v.pres.be" />
+    <markup text="VDZ"  code="v.pres.do" />
+    <markup text="VHZ"  code="v.pres.have" />
+	
+    <markup text="VBN"  code="v.past.ptcp.be" />
+    <markup text="VDN"  code="v.past.ptcp.do" />
+    <markup text="VHN"  code="v.past.ptcp.have" />
 
-    	<markup text="VVB"  code="v.lex.base" />
-	<markup text="VVI"  code="v.lex.inf.ge" />
-    	<markup text="TO0"  code="v.lex.inf.to" />
-	<markup text="VVZ"  code="v.lex.pres.ge" />
-	<markup text="VVG"  code="v.lex.pres.ptcp" />
-    	<markup text="VVD"  code="v.lex.past.ge" />
-    	<markup text="VVN"  code="v.lex.past.ptcp" />
-    	<markup text="VM0"  code="v.mod" />
+    <markup text="VBG"  code="v.pres.ptcp.be" />
+    <markup text="VDG"  code="v.pres.ptcp.do" />
+    <markup text="VHG"  code="v.pres.ptcp.have" />
 
-    	<markup text="XX0"  code="oth.neg" />
+    <markup text="VM0"  code="v.mod" />
+    <markup text="VVI"  code="v.lex.inf" />
+    <markup text="TO0"  code="v.lex.inf.to" />
+    <markup text="VVB"  code="v.lex" />
+    <markup text="VVD"  code="v.lex.past" />
+    <markup text="VVZ"  code="v.lex.pres" />
+    <markup text="VVN"  code="v.lex.past.ptcp" />
+    <markup text="VVG"  code="v.lex.pres.ptcp" />
 
-    	<markup text="ZZ0"  code="alph" />
+    <markup text="XX0"  code="neg" />
+
+    <markup text="ZZ0"  code="alph" />
     
-    	<markup text="UNC"  code="uncl" />
+    <markup text="UNC"  code="uncl" />
   </markups>
 </eposx>
